@@ -1,0 +1,86 @@
+body{
+	background-color: yellow;
+	color: black;
+}
+
+h1{
+	color: blue;
+	
+}
+
+h2 {
+	color: blue;
+	font-size: 20px;
+	font-family: Helvetica;
+
+}
+h1,h2 {
+	font-weight: bolder;
+}
+h3{
+	color: red;
+	color: rgba(255, 83, 13, 1.0);
+}
+a{
+	
+  font-size: 15px;
+	line-height: 1;
+	letter-spacing: 5px;
+	
+}
+div {
+	background: white;
+	margin: 10;
+	border:2px solid black;
+	border-radius:5px;
+	width:600px;
+	}
+/* Custom design with class (99% of your design)*/
+.container{
+	width:700px;
+	margin:40px auto;
+	padding:20px 30px 30px 50px;
+
+
+}
+.card-white{
+	background-color:white;
+	padding:40px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius:4px;
+	margin:20px 0px;
+	text-align:center;
+}
+
+.img-circle{
+	border-radius:50px;
+}
+
+.btn-blue{
+	background-color:#6B72E1;
+	color:white;
+	padding:15px 20px;
+
+}
+
+.btn-blue:hover{
+    background-color:black;
+	color:white;
+	padding-left:20px
+	
+}
+
+.list-inline{
+	list-style:none;
+	padding-left:0px;
+}
+
+.list-inline li{
+	disply: inline;
+	padding:10px;
+}
+/* design adjustments using id(1% person remaining)*/
+#introduction h3 {
+margin-bottom:40px;
+	
+}
